@@ -1,0 +1,27 @@
+.todo-item__alert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item__alert_edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item__buttons {
+  width: 140px;
+  margin-bottom: -18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-button {
+  cursor: pointer;
+  color: rgb(104, 122, 126);
+}
+
+.edit-button:hover {
+  color: rgb(62, 61, 63);
+}
